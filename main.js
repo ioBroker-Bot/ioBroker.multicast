@@ -8,8 +8,8 @@
 const utils = require('@iobroker/adapter-core');
 const randomToken = require('random-token');
 // Load your modules here, e.g.:
-const dgram = require('dgram');
-// const {clearTimeout} = require('timers');
+const dgram = require('node:dgram');
+// const {clearTimeout} = require('node:timers');
 
 // Here Global variables
 let receive_ip = null, receive_port = null, send_ip = null, send_port = null, multicast = null, retry_time = null, retrymaxcount = null, device_list = null, timeSyncInterval = null;
