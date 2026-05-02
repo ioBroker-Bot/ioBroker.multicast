@@ -87,6 +87,9 @@ The adapter is build to send up to 5-times a retry to ensure all state changes a
     ### __WORK IN PROGRESS__
 -->
 
+### **WORK IN PROGRESS**
+- (copilot) Adapter requires node.js >= 22 now
+
 ### __WORK IN PROGRESS__
 * ([Andiling](https://github.com/andiling)) Expire value by API implemented
 * (DutchmanNL) Rebuild retry functionality
